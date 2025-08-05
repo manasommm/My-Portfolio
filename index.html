@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Caveat:wght@400;500;600;700&family=Architects+Daughter&family=Anton&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Manas' Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Background Elements -->
+    <div class="bg-container">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+        <div class="gradient-bg"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Hello, I'm</span>
+                    <span class="name-text">Manas Ranjan Panda</span>
+                </h1>
+                <p class="hero-subtitle">Molding playful pixels into memorable journeys 🎨</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-btn primary-btn">
+  <span class="btn-text">View Projects</span>
+  <i class="fas fa-rocket"></i>
+</a>
+
+<a href="#contact" class="cta-btn secondary-btn">
+  <span class="btn-text">Hire Me</span>
+  <i class="fas fa-handshake"></i>
+</a>
+
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-container">
+                    <div class="avatar-frame">
+                        <img src="Portfolio image.jpg" alt="Your Photo" class="avatar-img" id="avatar-img">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user"></i>
+                            <p>Add your photo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle"></p>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="card-inner">
+                        <div class="comic-bubble">
+                            <p> 👋 Hey there! I’m an Electrical Engineer turned developer who loves crafting sleek, responsive web apps with Node.js, React, and Tailwind CSS.</p>
+                            <p>🔍 I dive into data science and analytics—turning messy datasets into clear insights using Python, Pandas, SQL, and machine-learning pipelines.</p>
+                            <p>🧠 A DSA enthusiast at heart, I solve algorithmic puzzles in C++ and Python by day, and by night I’m architecting robust ABAP solutions and configuring SAP IBP processes to streamline business planningg.</p>
+                            <p>💡When I’m not coding, you’ll catch me sketching new ideas, sipping coffee, or exploring the latest tech trends!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h3 class="skills-title">My Superpowers</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">💻</div>
+                            <h4>Web Development</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📊</div>
+                            <h4>Data Science and Analytics</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🧮📦</div>
+                            <h4>DSA</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🤖🧠</div>
+                            <h4>Machine Learning</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="87"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🐍</div>
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⚙️</div>
+                            <h4>SAP ABAP and IBP</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">A showcase of my creative endeavors</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-project="1">
+                    <div class="project-image">
+                        <img src="blah blah image.jpg" alt="Project 1" class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Add Project Image</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://blah-blah-chat.vercel.app/" class="project-link live-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/manasommm/BLAH-BLAH" class="project-link code-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">BLAH BLAH CHAT APP</h3>
+                        <p class="project-description">BLAH BLAH is a modern, real-time messaging application designed for seamless communication. It supports both private one-on-one conversations and collaborative group chat rooms. The application is built with a robust, production-ready technology stack, featuring a responsive user interface and intelligent AI-powered enhancements to enrich the user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">GenAI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="2">
+                    <div class="project-image">
+                        <img src="Time Series Forecasting.jpg" alt="Project 2" class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Add Project Image</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://time-series-analysis-and-forecasting-for-stock-market.streamlit.app/" class="project-link live-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/manasommm/TIME-SERIES-ANALYSIS-AND-FORECASTING-FOR-STOCK-MARKET" class="project-link code-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TIME SERIES ANALYSIS AND FORECASTING FOR STOCK MARKET</h3>
+                        <p class="project-description">This project delivers an interactive Streamlit dashboard for comprehensive time series analysis and forecasting of stock market data using advanced models like SARIMA, Prophet, and LSTM. It enables users to visualize historical trends, generate forecasts, and compare model performances dynamically.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="3">
+                    <div class="project-image">
+                        <img src="Amazon Clone Image.jpg" alt="Project 3" class="project-img">
+                        <div class="project-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Add Project Image</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://amazon-clone-ebon-alpha.vercel.app/" class="project-link live-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/manasommm/Amazon-Clone" class="project-link code-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AMAZON CLONE</h3>
+                        <p class="project-description">A responsive HTML/CSS Amazon clone with a product grid, hover-activated “Add to Cart” buttons, and a fixed search header.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">UI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Journey</h2>
+                <p class="section-subtitle">Adventures in code and creativity</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date-bubble">2025
+                        </span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3>Data Science and Analyst Intern</h3>
+                            <h4>Zidio Development</h4>
+                            <p>Managed the data analysis team and building end-to-end data workflows and machine learning solutions using Pandas, Models, and TensorFlow.</p>
+                            <div class="achievement">
+                                <i class="fas fa-trophy"></i>
+                                <span>Successfully Completed Projects Within Deadline</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date-bubble">2025</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3>Full Stack Developer Intern</h3>
+                            <h4>Elevate Labs</h4>
+                            <p>Developed end-to-end web applications and improved user experience across multiple products.</p>
+                            <div class="achievement">
+                                <i class="fas fa-award"></i>
+                                <span>Best Performer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date-bubble">2025</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3>SAP ABAP Intern</h3>
+                            <h4>EME</h4>
+                            <p>Developed ABAP reports to streamline data extraction and collaborated on SAP IBP heuristic configurations.</p>
+                            <div class="achievement">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Completed Certification Program</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch!</h2>
+                <p class="section-subtitle">Ready to create something amazing together?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-card">
+                    <div class="contact-card">
+  <div class="contact-row">
+    <div class="contact-icon-wrapper">
+      <i class="fas fa-envelope"></i>
+    </div>
+    <div class="contact-info">
+      <div class="contact-label">Email</div>
+      <div class="contact-detail"><em>pandamanasranjan67@gmail.com</em></div>
+    </div>
+  </div>
+
+  <div class="contact-row">
+    <div class="contact-icon-wrapper">
+      <i class="fas fa-phone"></i>
+    </div>
+    <div class="contact-info">
+      <div class="contact-label">Phone</div>
+      <div class="contact-detail"><em>+91 8144893682</em></div>
+    </div>
+  </div>
+</div>
+
+                        <div class="social-section">
+                            <h4>Find me on</h4>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/manas-ranjan-panda-649736349" class="social-link linkedin" target="_blank" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/manasommm" class="social-link github" target="_blank" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://x.com/ManasRa228?t=yawpGmMkUM53ue5FjjDwtQ&s=08 " class="social-link twitter" target="_blank" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/its__me__manas?igsh=b3ozaWx6cmU1OTR4" class="social-link instagram" target="_blank" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Download Section -->
+    <section class="resume-section">
+        <div class="container">
+            <div class="resume-card">
+                <div class="resume-content">
+                    <h3>Want to know more?</h3>
+                    <p>Download my resume to see my full experience and qualifications</p>
+                    <a href="Manas' IT Resume-2.pdf" download="Manas_Resume.pdf" class="download-btn">
+                        <span class="download-text">Download Resume</span>
+                            <div class="download-icon">
+                                 <i class="fas fa-download"></i>
+                            </div>
+                        </a>
+                    <div class="explosion-effect">Boom! 💥</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Manas Made with ❤️</p>
+                <div class="footer-easter-egg" id="footer-easter-egg">
+                    <div class="confetti"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal project-modal" id="project-modal">
+        <div class="modal-content project-modal-content">
+            <div class="modal-header">
+                <h2 id="modal-project-title">Project Title</h2>
+                <button class="close-modal" id="close-project-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="project-modal-image">
+                    <img id="modal-project-image" src="" alt="Project Image">
+                </div>
+                <div class="project-modal-details">
+                    <p id="modal-project-description">Project description goes here...</p>
+                    <div class="project-modal-tech" id="modal-project-tech">
+                        <!-- Tech tags will be inserted here -->
+                    </div>
+                    <div class="project-modal-links">
+                        <a id="modal-live-link" href="#" target="_blank" class="modal-project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a id="modal-code-link" href="#" target="_blank" class="modal-project-link">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
